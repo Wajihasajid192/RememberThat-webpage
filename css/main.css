@@ -12,6 +12,7 @@ body {
 .navbar {
   background: white;
   padding: 1em;
+  
 }
 
 .navbar .logo {
@@ -241,6 +242,7 @@ nav li a:hover {
     -webkit-box-pack: unset;
         -ms-flex-pack: unset;
             justify-content: unset;
+    box-sizing: border-box;
   }
   .navbar nav {
     display: -webkit-box;
@@ -284,7 +286,7 @@ nav li a:hover {
   }
 }
 
-@media only screen and (min-width: 1080px) {
+@media only screen and (min-width: 1200px) {
   .container {
     width: 1080px;
     margin: 0 auto;

@@ -118,10 +118,10 @@ ul.features-list li {
 
 ul.features-list li:before {
   content: '';
-  left: -2em;
+  left: -3em;
   position: absolute;
-  width: 20px;
-  height: 20px;
+  width: 30px;
+  height: 30px;
   background-image: url("../images/bullet.svg");
   background-size: contain;
   margin-right: .5em;

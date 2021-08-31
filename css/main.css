@@ -105,9 +105,7 @@ ul.features-list {
   margin: 0;
   padding-left: .1em;
   display: -ms-grid;
-  display: grid;
-  -ms-grid-columns: (minmax(19rem, 1fr))[auto-fit];
-      grid-template-columns: repeat(auto-fit, minmax(19rem, 1fr));
+  display: block;
 }
 
 ul.features-list li {
@@ -231,7 +229,7 @@ nav li a:hover {
   cursor: pointer;
 }
 
-@media only screen and (min-width: 768px) {
+@media only screen and (max-width: 768px) {
   .mobile-menu, .mobile-menu-exit {
     display: none;
   }

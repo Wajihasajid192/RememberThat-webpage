@@ -13,7 +13,7 @@ body {
   text-decoration: none;
   font-weight: bold;
   color: black;
-  font-size: 1.5em;
+  font-size: 25px;
 }
 
 .navbar .logo span {
@@ -31,7 +31,7 @@ body {
 
 .navbar .mobile-menu {
   cursor: pointer;
-  width: 40px;
+  width: 45px;
 }
 
 a {
@@ -70,7 +70,7 @@ section {
   color: white;
   text-decoration: none;
   padding: .6em 1.3em;
-  font-size: 1.4em;
+  font-size: 1.6em;
   border-radius: 5em;
   font-weight: bold;
   display: inline-block;
@@ -164,11 +164,11 @@ ul.features-list li:before{
     border-radius: 5em;
     display: inline-block;
     padding: .8em 2em;
-    width: 50;
+    width: 50%;
     cursor: pointer;
   }
   iframe{
-    width: 100%;
+    width: 50%;
     height: 300px;
   }
   nav.menu-btn {
